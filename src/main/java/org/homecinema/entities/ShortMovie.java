@@ -6,6 +6,7 @@ public class ShortMovie {
     private String movieOriginalName;
     private Integer seriesAmount;
     private Integer movieYear;
+    private String imageUrl;
 
     public Integer getMovieId() {
         return movieId;
@@ -47,12 +48,21 @@ public class ShortMovie {
         this.movieYear = movieYear;
     }
 
-    public ShortMovie(Integer movieId, String movieRussianName, String movieOriginalName, Integer seriesAmount, Integer movieYear) {
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public ShortMovie(Integer movieId, String movieRussianName, String movieOriginalName, Integer seriesAmount, Integer movieYear, String imageUrl) {
         this.movieId = movieId;
         this.movieRussianName = movieRussianName;
         this.movieOriginalName = movieOriginalName;
         this.seriesAmount = seriesAmount;
         this.movieYear = movieYear;
+        this.imageUrl = imageUrl;
     }
 
     @Override
@@ -61,7 +71,8 @@ public class ShortMovie {
                 "Название на русском: " + movieRussianName + "; " +
                 "Оригинальное название: " + movieOriginalName + "; " +
                 "Количество серий: " + seriesAmount + "; " +
-                "Год выхода на экраны: " + movieYear + ".";
+                "Год выхода на экраны: " + movieYear + ";" +
+                "URL картинки:" + imageUrl + ".";
     }
 }
 

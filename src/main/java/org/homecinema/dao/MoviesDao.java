@@ -4,7 +4,6 @@ import org.homecinema.entities.CountryEntity;
 import org.homecinema.entities.GenreEntity;
 import org.homecinema.entities.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.*;
@@ -12,22 +11,19 @@ import javax.persistence.*;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
-import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-@Transactional
 public class MoviesDao {
 
     @PersistenceContext
     private EntityManager em;
-    private final JdbcTemplate jdbcTemplate;
+
 
     @Autowired
-    public MoviesDao(EntityManager em, JdbcTemplate jdbcTemplate) {
+    public MoviesDao(EntityManager em) {
         this.em = em;
-        this.jdbcTemplate = jdbcTemplate;
     }
 
     //список всех фильмов в базе
@@ -68,7 +64,7 @@ public class MoviesDao {
 
         ArrayList<String> outputList = new ArrayList<>();
         outputList.add(0, "");
-        System.out.println("resultList = " + resultList);
+
         for (CountryEntity c : resultList) {
             while (outputList.size() < c.getCountryId()) {
                 outputList.add("");
@@ -137,6 +133,17 @@ public class MoviesDao {
         return q.getResultList();
     }
 
+    //url места в интернете, где находится конкретный фильм
+    public String movieSource(int movieId, int seriaNumber) {
+        Query q = em.createNativeQuery("SELECT fileUrl FROM series WHERE movieId=? AND seriaNumber=?")
+                .setParameter(1, movieId).setParameter(2, seriaNumber);
+        try {
+            return (String) q.getSingleResult();
+        } catch (NoResultException e) {
+            return "";
+        }
+    }
+
     //добавление нового фильма/сериала
     public void addNewCinema(Movie newMovie) {
         em.persist(newMovie);
@@ -170,6 +177,33 @@ public class MoviesDao {
         q.executeUpdate();
     }
 
+    //добавление места в интернете, где находится фильм/сериал
+    public void addCinemaUrl(Integer movieId, Integer seriaNumber, String fileUrl) {
+        Query q = em.createNativeQuery("INSERT INTO series (movieId, seriaNumber, fileUrl)"
+                + "VALUES (?,?,?)")
+                .setParameter(1, movieId)
+                .setParameter(2, seriaNumber)
+                .setParameter(3, fileUrl);
+        q.executeUpdate();
+    }
+
+    //обновление данных о месте в интернете, где находится фильм/сериал
+    public void updateCinemaUrl(Integer movieId, Integer seriaNumber, String fileUrl) {
+        Query q = em.createNativeQuery("UPDATE series SET fileUrl=:fileUrl WHERE movieId = :movieId AND seriaNumber = :seriaNumber")
+                .setParameter("movieId", movieId)
+                .setParameter("seriaNumber", seriaNumber)
+                .setParameter("fileUrl", fileUrl);
+        q.executeUpdate();
+    }
+
+    //очистка данных о месте в интернете, где находится фильм/сериал
+    public void deleteCinemaUrl(Integer movieId, Integer seriaNumber) {
+        Query query = em.createNativeQuery("DELETE FROM series WHERE movieId=:movieId AND seriaNumber = :seriaNumber")
+                .setParameter("movieId", movieId)
+                .setParameter("seriaNumber", seriaNumber);
+        query.executeUpdate();
+    }
+
     //обновление данных о фильме/сериале
     public void updateCinema(Movie newMovie) {
         em.merge(newMovie);
@@ -195,6 +229,11 @@ public class MoviesDao {
                 .setParameter("movieId", movieId)
                 .setParameter("countryId", countryId);
         query.executeUpdate();
+    }
+
+    //поиск фильма/сериала
+    public List<Movie> foundCinema(String sql) {
+        return em.createNativeQuery(sql, Movie.class).getResultList();
     }
 }
 

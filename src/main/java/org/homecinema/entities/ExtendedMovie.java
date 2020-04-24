@@ -3,29 +3,48 @@ package org.homecinema.entities;
 import java.util.ArrayList;
 
 public class ExtendedMovie extends Movie {
-    private ArrayList<String> countries;
-    private ArrayList<String> genres;
+    private String countries;
+    private String genres;
+    private ArrayList<String> sourceUrl;
 
-    public ArrayList<String> getCountries() {
+    public String getCountries() {
         return countries;
     }
 
-    public void setCountries(ArrayList<String> countries) {
+    public void setCountries(String countries) {
         this.countries = countries;
     }
 
-    public ArrayList<String> getGenres() {
+    public String getGenres() {
         return genres;
     }
 
-    public void setGenres(ArrayList<String> genres) {
+    public void setGenres(String genres) {
         this.genres = genres;
     }
 
-    public ExtendedMovie(Integer movieId, String movieRussianName, String movieOriginalName, Integer seriesAmount, Integer movieYear, String description, ArrayList<String> countries, ArrayList<String> genres) {
-        super(movieId, movieRussianName, movieOriginalName, seriesAmount, movieYear, description);
+    public ArrayList<String> getSourceUrl() {
+        return sourceUrl;
+    }
+
+    public void setSourceUrl(ArrayList<String> sourceUrl) {
+        this.sourceUrl = sourceUrl;
+    }
+
+    public ExtendedMovie(Integer movieId,
+                         String movieRussianName,
+                         String movieOriginalName,
+                         Integer seriesAmount,
+                         Integer movieYear,
+                         String description,
+                         String countries,
+                         String genres,
+                         String imageUrl,
+                         ArrayList<String> sourceUrl) {
+        super(movieId, movieRussianName, movieOriginalName, seriesAmount, movieYear, description, imageUrl);
         this.countries = countries;
         this.genres = genres;
+        this.sourceUrl = sourceUrl;
     }
 
     @Override
@@ -37,7 +56,9 @@ public class ExtendedMovie extends Movie {
                 "Жанр(ы): " + getGenres()  + "; " +
                 "Год выхода на экраны: " + getMovieYear() + "; " +
                 "Страны: " + getCountries()  + "; " +
-                "Описание: " + this.getDescription() + ".";
+                "Описание: " + this.getDescription() + ";" +
+                "URL картинки: " +getImageUrl() + ";" +
+                "URL файла: " + getSourceUrl() + ".";
     }
 }
 
