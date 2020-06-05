@@ -8,6 +8,14 @@
   <component name="ChangeListManager">
     <list default="true" id="fa0fcac3-45ac-45a3-be93-f6507cddd63f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/create.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/film.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/film.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/layout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/serial.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/serial.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/update.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/update.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/update.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/update.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homecinema/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homecinema/web/WebController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +40,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -51,8 +58,7 @@
     </configuration>
     <configuration name="WebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.homecinema.WebApplication" />
-      <module name="HomeCinema_java_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="HomeCinema_java.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.homecinema.*" />
@@ -125,8 +131,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590491822602</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refreshing">
+      <created>1590562959596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590562959596</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -140,45 +156,57 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1587710530901" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591267380906">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591267380906" />
     <state x="436" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587710978598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="436" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1587710978598" />
-    <state x="363" y="102" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589861785853">
+    <state x="363" y="102" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1590563825485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="102" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1589861785853" />
-    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1590562899497">
+    <state x="363" y="102" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1590563825485" />
+    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1590562953107">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590562899497" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1587710691283">
+    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590562953107" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1591266929318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587710691283" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1587721321199">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591266929318" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1591360402372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587721321199" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1587721321199">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591360402372" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1591360402371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587721321199" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1587721321199">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591360402371" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1591360402371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587721321199" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1587721321199">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591360402371" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1591360402371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587721321199" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1590491758455">
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591360402371" />
+    <state x="263" y="98" key="IDE.errors.dialog" timestamp="1590734171317">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590491758455" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1590562843739">
+    <state x="263" y="98" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1590734171317" />
+    <state x="132" y="0" key="SettingsEditor" timestamp="1591350402693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590562843739" />
+    <state x="132" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591350402693" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1590562973136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590562973136" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1590567942631">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590567942631" />
   </component>
 </project>

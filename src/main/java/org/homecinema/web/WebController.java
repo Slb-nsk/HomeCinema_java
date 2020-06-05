@@ -35,7 +35,7 @@ public class WebController {
 
     @PostMapping("/add")
     public void addMovie(@RequestBody ExtendedMovie m) {
-        service.addMovie(m.getMovieRussianName(),
+        int movieId = service.addMovie(m.getMovieRussianName(),
                 m.getMovieOriginalName(),
                 m.getMovieYear().toString(),
                 m.getSeriesAmount().toString(),
@@ -46,6 +46,7 @@ public class WebController {
                 countries,
                 m.getImageUrl()
         );
+        service.changeUrl(movieId,m.getSourceUrl());
         this.genres = service.getGenresList();
         this.countries = service.getcountriesList();
     }
@@ -64,6 +65,7 @@ public class WebController {
                 countries,
                 m.getImageUrl()
         );
+        service.changeUrl(movieId,m.getSourceUrl());
         this.genres = service.getGenresList();
         this.countries = service.getcountriesList();
     }
