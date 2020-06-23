@@ -7,25 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa0fcac3-45ac-45a3-be93-f6507cddd63f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/addurl.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/addurl.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/editing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/create.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/create.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/ok.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/ok.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/editing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/editing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/http.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/http.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/bigmovie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/entities/bigmovie.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/film.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/film.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/layout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/layout.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/movie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/entities/movie.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/serial.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/serial.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homecinema/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homecinema/web/WebController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +31,7 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/homecinema_angular" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -204,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591780101972</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refreshing">
+      <created>1592195672792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592195672792</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -234,30 +231,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="102" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1590563825485" />
-    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1591780097791">
+    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1592195667722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591780097791" />
+    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592195667722" />
     <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1591266929318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591266929318" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1592191488849">
+    <state width="1322" height="115" key="GridCell.Tab.0.bottom" timestamp="1592221578104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592191488849" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1592191488849">
+    <state width="1322" height="115" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592221578104" />
+    <state width="1322" height="115" key="GridCell.Tab.0.center" timestamp="1592221578104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592191488849" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1592191488849">
+    <state width="1322" height="115" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592221578104" />
+    <state width="1322" height="115" key="GridCell.Tab.0.left" timestamp="1592221578104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592191488849" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1592191488849">
+    <state width="1322" height="115" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592221578104" />
+    <state width="1322" height="115" key="GridCell.Tab.0.right" timestamp="1592221578104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592191488849" />
+    <state width="1322" height="115" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592221578104" />
     <state x="263" y="98" key="IDE.errors.dialog" timestamp="1590734171317">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
