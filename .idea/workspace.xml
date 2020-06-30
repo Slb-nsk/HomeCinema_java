@@ -7,15 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa0fcac3-45ac-45a3-be93-f6507cddd63f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/create.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/editing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/editing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/http.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/http.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/serial.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/serial.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -201,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592195672792</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refreshing">
+      <created>1592893301336</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592893301336</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -231,30 +236,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="102" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1590563825485" />
-    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1592195667722">
+    <state x="410" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592893319185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592195667722" />
+    <state x="410" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1592893319185" />
+    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1592893296339">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592893296339" />
     <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1591266929318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591266929318" />
-    <state width="1322" height="115" key="GridCell.Tab.0.bottom" timestamp="1592221578104">
+    <state width="1322" height="115" key="GridCell.Tab.0.bottom" timestamp="1593057516882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="115" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592221578104" />
-    <state width="1322" height="115" key="GridCell.Tab.0.center" timestamp="1592221578104">
+    <state width="1322" height="115" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593057516882" />
+    <state width="1322" height="115" key="GridCell.Tab.0.center" timestamp="1593057516882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="115" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592221578104" />
-    <state width="1322" height="115" key="GridCell.Tab.0.left" timestamp="1592221578104">
+    <state width="1322" height="115" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593057516882" />
+    <state width="1322" height="115" key="GridCell.Tab.0.left" timestamp="1593057516882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="115" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592221578104" />
-    <state width="1322" height="115" key="GridCell.Tab.0.right" timestamp="1592221578104">
+    <state width="1322" height="115" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593057516882" />
+    <state width="1322" height="115" key="GridCell.Tab.0.right" timestamp="1593057516882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="115" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592221578104" />
+    <state width="1322" height="115" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593057516882" />
     <state x="263" y="98" key="IDE.errors.dialog" timestamp="1590734171317">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
