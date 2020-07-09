@@ -8,11 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fa0fcac3-45ac-45a3-be93-f6507cddd63f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homecinema_angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/changeurl.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/editing/update.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homecinema_angular/src/app/layout/serial.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homecinema_angular/src/app/layout/serial.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592893301336</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refreshing">
+      <created>1593527071546</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593527071546</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -240,30 +246,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="410" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1592893319185" />
-    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1592893296339">
+    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1593527061261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592893296339" />
+    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593527061261" />
     <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1591266929318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591266929318" />
-    <state width="1322" height="115" key="GridCell.Tab.0.bottom" timestamp="1593057516882">
+    <state width="1322" height="115" key="GridCell.Tab.0.bottom" timestamp="1594094410492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="115" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593057516882" />
-    <state width="1322" height="115" key="GridCell.Tab.0.center" timestamp="1593057516882">
+    <state width="1322" height="115" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594094410492" />
+    <state width="1322" height="115" key="GridCell.Tab.0.center" timestamp="1594094410492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="115" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593057516882" />
-    <state width="1322" height="115" key="GridCell.Tab.0.left" timestamp="1593057516882">
+    <state width="1322" height="115" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594094410492" />
+    <state width="1322" height="115" key="GridCell.Tab.0.left" timestamp="1594094410492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="115" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593057516882" />
-    <state width="1322" height="115" key="GridCell.Tab.0.right" timestamp="1593057516882">
+    <state width="1322" height="115" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594094410492" />
+    <state width="1322" height="115" key="GridCell.Tab.0.right" timestamp="1594094410492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="115" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593057516882" />
+    <state width="1322" height="115" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594094410492" />
     <state x="263" y="98" key="IDE.errors.dialog" timestamp="1590734171317">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
